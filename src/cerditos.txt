@@ -1,0 +1,12 @@
+Todos los recursos son descargados desde http://opengameart.org siguiendo los siguiente enlaces
+
+nave (http://opengameart.org/content/ship-tx-01)
+imagen de fondo (http://opengameart.org/content/starfield-background)
+sonido de fondo (http://opengameart.org/content/space-music)
+sonido de explosion (http://opengameart.org/content/explosion-0)
+sonido de disparo (http://opengameart.org/content/game-sound-effects)
+imagen de balas (http://opengameart.org/content/bullet-collection-1-m484)
+imagen de explosion (http://opengameart.org/content/simple-explosion-bleeds-game-art)
+Diversos Objetos de obstaculos (naves, asteroides u otra cosas).
+      (http://opengameart.org/content/fighter-ship-elite)
+      (http://opengameart.org/content/asteroid-rotating)
