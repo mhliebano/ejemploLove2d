@@ -96,11 +96,11 @@ function dibujaEnemigo()
 		if e.tipo==1 then
 			love.graphics.draw(enemigo,e.pX,e.pY,0,0.2,0.2,enemigo:getWidth()*0.2, enemigo:getHeight()*0.2)
 		elseif e.tipo==2 then
-			love.graphics.draw(roca1,e.pX,e.pY,0,0.2,0.2,enemigo:getWidth()*0.2, enemigo:getHeight()*0.2)
+			love.graphics.draw(roca1,e.pX,e.pY,0,0.2,0.2,roca1:getWidth()*0.2, roca1:getHeight()*0.2)
 		elseif e.tipo==3 then
-			love.graphics.draw(roca2,e.pX,e.pY,0,0.2,0.2,enemigo:getWidth()*0.2, enemigo:getHeight()*0.2)
+			love.graphics.draw(roca2,e.pX,e.pY,0,0.2,0.2,roca2:getWidth()*0.2, roca2:getHeight()*0.2)
 		elseif e.tipo==4 then
-			love.graphics.draw(roca3,e.pX,e.pY,0,0.2,0.2,enemigo:getWidth()*0.2, enemigo:getHeight()*0.2)
+			love.graphics.draw(roca3,e.pX,e.pY,0,0.2,0.2,roca3:getWidth()*0.2, roca3:getHeight()*0.2)
 		end
 	end
 end
@@ -108,9 +108,9 @@ end
 function mueveEnemigo(t)
 	for i,e in ipairs(enemigos) do
 		if e.tipo==1 then
-			e.pX=e.pX-(120*t)
+			e.pX=e.pX-(220*t)
 		else
-			e.pX=e.pX-(80*t)
+			e.pX=e.pX-(180*t)
 		end
 		if e.pX<=posX+50 and e.pY>=posY and e.pY<=posY+80 then
 			vida=vida-10
